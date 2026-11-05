@@ -1,4 +1,9 @@
-## Hi there 👋
+# Hi there 👋, I'm Pedro Ximenes
+
+### A passionate technician from around the world
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=phximenes&label=Profile%20views&color=0e75b6&style=flat" alt="phximenes" /> </p>
+
 
 <!--
 **phximenes/phximenes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +19,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
