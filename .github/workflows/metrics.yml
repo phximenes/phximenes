@@ -21,95 +21,37 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: Header
+      # Left card: activity, community, repositories and most used languages
+      - name: Overview
         uses: lowlighter/metrics@latest
         with:
-          filename: header.svg
+          filename: overview.svg
           # Personal access token stored in the repository secrets
           token: ${{ secrets.METRICS_SECRET }}
           # GITHUB_TOKEN is auto-generated and only used to commit the card
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: ${{ github.ref_name }}
           user: phximenes
           template: classic
-          base: header
+          base: activity, community, repositories
           config_timezone: America/Sao_Paulo
+          plugin_languages: yes
+          plugin_languages_limit: 6
 
-      - name: Repositories
+      # Right card: isometric contribution calendar
+      - name: Calendar
         uses: lowlighter/metrics@latest
         with:
-          filename: repositories.svg
+          filename: calendar.svg
           token: ${{ secrets.METRICS_SECRET }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: phximenes
-          template: classic
-          base: repositories
-          config_timezone: America/Sao_Paulo
-
-      - name: Activity and community
-        uses: lowlighter/metrics@latest
-        with:
-          filename: acti_comm.svg
-          token: ${{ secrets.METRICS_SECRET }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: phximenes
-          template: classic
-          base: activity, community
-          config_timezone: America/Sao_Paulo
-
-      - name: Isometric calendar
-        uses: lowlighter/metrics@latest
-        with:
-          filename: iso_calender.svg
-          token: ${{ secrets.METRICS_SECRET }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: ${{ github.ref_name }}
           user: phximenes
           template: classic
           base: ""
           config_timezone: America/Sao_Paulo
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          plugin_isocalendar_duration: full-year
 
-      - name: Issues, pull requests and languages
-        uses: lowlighter/metrics@latest
-        with:
-          filename: issue_pr_lang.svg
-          token: ${{ secrets.METRICS_SECRET }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: phximenes
-          template: classic
-          base: ""
-          config_timezone: America/Sao_Paulo
-          plugin_followup: yes
-          plugin_languages: yes
-
-      - name: Habits
-        uses: lowlighter/metrics@latest
-        with:
-          filename: github-habits.svg
-          token: ${{ secrets.METRICS_SECRET }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: phximenes
-          template: classic
-          base: ""
-          config_timezone: America/Sao_Paulo
-          plugin_habits: yes
-          plugin_habits_from: 200       # Use 200 events to compute habits
-          plugin_habits_days: 14        # Keep only events from last 14 days
-          plugin_habits_charts: yes     # Display charts section
-          plugin_habits_trim: yes       # Trim unused hours on daily chart
-
-      - name: Achievements
-        uses: lowlighter/metrics@latest
-        with:
-          filename: achievements.svg
-          token: ${{ secrets.METRICS_SECRET }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: phximenes
-          template: classic
-          base: ""
-          config_timezone: America/Sao_Paulo
-          plugin_achievements: yes
-          plugin_achievements_threshold: C      # Display achievements with rank C or higher
-          plugin_achievements_secrets: yes      # Display unlocked secrets achievements
-          plugin_achievements_display: compact  # Use compact display
-          plugin_achievements_limit: 0          # Display all unlocked achievements (no limit)
+      # The habits and achievements plugins are left out on purpose: both
+      # crash against the current GitHub API (see the run of 2026-11-21).
