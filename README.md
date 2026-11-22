@@ -16,7 +16,45 @@
 <h3 align="center">Languages and Tools</h3>
 
 <p align="center">
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=redhat,ansible,kubernetes,docker,linux,git,java,spring,postgres,mysql,gcp,postman,figma" alt="Red Hat, Ansible, Kubernetes, Docker, Linux, Git, Java, Spring, PostgreSQL, MySQL, Google Cloud, Postman, Figma" /></a>
+  <img src="https://skillicons.dev/icons?i=redhat" alt="Red Hat" title="Red Hat" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=openshift" alt="OpenShift" title="OpenShift" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=kubernetes" alt="Kubernetes" title="Kubernetes" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=docker" alt="Docker" title="Docker" width="48" height="48" />
+  <img src="./icons/podman.svg" alt="Podman" title="Podman" width="48" height="48" />
+  <img src="./icons/helm.svg" alt="Helm" title="Helm" width="48" height="48" />
+  <img src="./icons/kustomize.svg" alt="Kustomize" title="Kustomize" width="48" height="48" />
+  <img src="./icons/tekton.svg" alt="Tekton" title="Tekton" width="48" height="48" />
+  <img src="./icons/argocd.svg" alt="Argo CD" title="Argo CD" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=ansible" alt="Ansible" title="Ansible" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=terraform" alt="Terraform" title="Terraform" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=githubactions" alt="GitHub Actions" title="GitHub Actions" width="48" height="48" />
+  <br />
+  <img src="https://skillicons.dev/icons?i=aws" alt="AWS" title="AWS" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=azure" alt="Azure" title="Azure" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=gcp" alt="Google Cloud" title="Google Cloud" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=linux" alt="Linux" title="Linux" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=bash" alt="Bash" title="Bash" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=powershell" alt="PowerShell" title="PowerShell" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=py" alt="Python" title="Python" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=java" alt="Java" title="Java" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=spring" alt="Spring" title="Spring" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=maven" alt="Maven" title="Maven" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" title="JavaScript" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=html" alt="HTML" title="HTML" width="48" height="48" />
+  <br />
+  <img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" title="PostgreSQL" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" title="MySQL" width="48" height="48" />
+  <img src="./icons/oracle.svg" alt="Oracle" title="Oracle" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=redis" alt="Redis" title="Redis" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=nginx" alt="Nginx" title="Nginx" width="48" height="48" />
+  <img src="./icons/caddy.svg" alt="Caddy" title="Caddy" width="48" height="48" />
+  <img src="./icons/keycloak.svg" alt="Keycloak" title="Keycloak" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=grafana" alt="Grafana" title="Grafana" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=prometheus" alt="Prometheus" title="Prometheus" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=git" alt="Git" title="Git" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" title="VS Code" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=postman" alt="Postman" title="Postman" width="48" height="48" />
+  <img src="https://skillicons.dev/icons?i=figma" alt="Figma" title="Figma" width="48" height="48" />
 </p>
 
 <h3 align="center">GitHub at a glance</h3>
